@@ -20,6 +20,16 @@
   --radius-sm: 8px;
 }
 
+a{
+  text-decoration:none !important;
+  color:inherit !important;
+}
+
+.whatsapp-btn,
+.hero-cta a{
+  color:white !important;
+}
+
 /* ── LIGHT MODE (Tetep rapi biar ga tabrakan) ── */
 body.light-mode {
   --bg: #E9DDF5;          /* background lavender soft */
