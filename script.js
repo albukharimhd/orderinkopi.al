@@ -5,9 +5,9 @@ const WA_NUMBER = "6285664107580";
 const MENUS = {
   coffee: [
     // ── BEST SELLER (signature) ──
-    {name:"Kopi Kenangan Mantan",normal:19000,disc:14000,upsize:19000,emo:"☕",img:"Kopi Kenangan Mantan.png",signature:true},
+    {name:"Kopi Kenangan Mantan",normal:19000,disc:14500,upsize:19000,emo:"☕",img:"Kopi Kenangan Mantan.png",signature:true},
     {name:"Creamy Aren Latte",normal:22000,disc:16000,upsize:24000,emo:"☕",img:"Creamy Aren Latte.png",signature:true},
-    {name:"Americano",normal:17000,disc:13000,upsize:18000,emo:"☕",img:"Americano.png",signature:true},
+    {name:"Americano",normal:17000,disc:13500,upsize:18000,emo:"☕",img:"Americano.png",signature:true},
     {name:"Spanish Latte",normal:19000,disc:15000,upsize:21000,emo:"☕",img:"Spanish Latte.png",signature:true},
     {name:"Caramel Macchiato",normal:28000,disc:19000,upsize:26000,emo:"☕",img:"Caramel Macchiato.png",signature:true},
     // ── REGULAR ──
