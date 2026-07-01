@@ -990,7 +990,6 @@ function confirmSendToWA(){
   msg+=`*TOTAL: ${fmt(Math.max(0, total - discount))}*\n`;
   msg+="──────────────────────\n";
   msg+="*Follow & Cek Testi:*\n";
-  msg+="Order   : instagram.com/orderinkopi.al\n";
   msg+="Testi   : instagram.com/orderinkopi.al\n";
   msg+=`WA      : wa.me/${WA_NUMBER}`;
 
