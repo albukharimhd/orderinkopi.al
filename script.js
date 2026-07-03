@@ -13,7 +13,7 @@ const MENUS = {
     // ── REGULAR ──
     {name:"OG Aren Speculoos Latte",normal:21000,disc:16000,upsize:24000,emo:"☕",img:"OG Aren Speculoos Latte.png"},
     {name:"Dua Shot OG Aren",normal:25000,disc:18000,upsize:255000,emo:"☕",img:"Dua  Shot  OG  Aren.png"},
-    {name:"Mocha Caramel",normal:19000,disc:15000,upsize:21000,emo:"☕",img:"Mocha Caramel.png"},
+    {name:"Mocha Caramel",normal:26000,disc:19000,upsize:21000,emo:"☕",img:"Mocha Caramel.png"},
     {name:"Toffee Nut Latte",normal:19000,disc:15000,upsize:22000,emo:"☕",img:"Toffee Nut Latte.png"},
     {name:"Toffee Nut Aren Latte",normal:21000,disc:16500,upsize:22500,emo:"☕",img:"Toffee Nut Aren Latte.png"},
     {name:"Toffee Nut Oat Latte",normal:22000,disc:17000,upsize:23000,emo:"☕",img:"Toffee Nut Oat Latte.png"},
@@ -34,7 +34,7 @@ const MENUS = {
     {name:"Thai Tea Coffee",normal:25000,disc:19000,upsize:null,emo:"🧋",img:"Thai Tea Coffee.png",onlyLarge:true,isNew:true},
     {name:"Blueberry Americano",normal:19000,disc:15000,upsize:22000,emo:"☕",img:"Bluebeery_Americano.png",isNew:true},
   ],
-    noncoffee: [
+   noncoffee: [
     // ── BEST SELLER (signature) ──
     {name:"Milo Dinosaurus",normal:23000,disc:17000,upsize:24000,emo:"🥛",img:"Milo Dinosaurus.png",signature:true},
     {name:"Raspberry Hibiscus",normal:20000,disc:15000,upsize:21000,emo:"🌺",img:"Raspberry Hibiscus.png",signature:true},
@@ -42,7 +42,7 @@ const MENUS = {
     {name:"Babyccino",normal:19000,disc:15000,upsize:null,emo:"🥛",img:"Babyccino.png",signature:true},
     // ── REGULAR ──
     {name:"OG Aren Milky Speculoos",normal:23000,disc:16000,upsize:24000,emo:"🥛",img:"OG Aren Milky Speculoos.png"},
-    {name:"Choco Caramel",normal:22000,disc:16000,upsize:22000,emo:"🍫",img:"Choco Caramel.png"},
+    {name:"Choco Caramel",normal:29000,disc:15000,upsize:22000,emo:"🍫",img:"Choco Caramel.png"},
     {name:"Toffee Nut Choco Macchiato",normal:22000,disc:18000,upsize:null,emo:"🍫",img:"Toffee Nut Choco Macchiato.png"},
     {name:"Butterscotch Sea Salt (NC)",normal:24000,disc:18000,upsize:null,emo:"🥛",img:"Butterscotch Sea Salt (NC).png"},
     {name:"Milk Oreo Crumble",normal:26000,disc:19000,upsize:null,emo:"🍪",img:"Milk Oreo Crumble.png"},
