@@ -5,9 +5,9 @@ const WA_NUMBER = "6285664107580";
 const MENUS = {
   coffee: [
     // ── BEST SELLER (signature) ──
-    {name:"Kopi Kenangan Mantan",normal:19000,disc:14500,upsize:19000,emo:"☕",img:"Kopi Kenangan Mantan.png",signature:true},
+    {name:"Kopi Kenangan Mantan",normal:19000,disc:14000,upsize:19000,emo:"☕",img:"Kopi Kenangan Mantan.png",signature:true},
     {name:"Creamy Aren Latte",normal:22000,disc:16000,upsize:24000,emo:"☕",img:"Creamy Aren Latte.png",signature:true},
-    {name:"Americano",normal:17000,disc:13500,upsize:18000,emo:"☕",img:"Americano.png",signature:true},
+    {name:"Americano",normal:17000,disc:13000,upsize:18000,emo:"☕",img:"Americano.png",signature:true},
     {name:"Spanish Latte",normal:19000,disc:15000,upsize:21000,emo:"☕",img:"Spanish Latte.png",signature:true},
     {name:"Caramel Macchiato",normal:28000,disc:19000,upsize:26000,emo:"☕",img:"Caramel Macchiato.png",signature:true},
     // ── REGULAR ──
@@ -34,15 +34,15 @@ const MENUS = {
     {name:"Thai Tea Coffee",normal:25000,disc:19000,upsize:null,emo:"🧋",img:"Thai Tea Coffee.png",onlyLarge:true,isNew:true},
     {name:"Blueberry Americano",normal:19000,disc:15000,upsize:22000,emo:"☕",img:"Bluebeery_Americano.png",isNew:true},
   ],
-  noncoffee: [
+    noncoffee: [
     // ── BEST SELLER (signature) ──
     {name:"Milo Dinosaurus",normal:23000,disc:17000,upsize:24000,emo:"🥛",img:"Milo Dinosaurus.png",signature:true},
     {name:"Raspberry Hibiscus",normal:20000,disc:15000,upsize:21000,emo:"🌺",img:"Raspberry Hibiscus.png",signature:true},
     {name:"Matcha Latte",normal:25000,disc:19000,upsize:26000,emo:"🍵",img:"Matcha Latte.png",signature:true},
     {name:"Babyccino",normal:19000,disc:15000,upsize:null,emo:"🥛",img:"Babyccino.png",signature:true},
     // ── REGULAR ──
-    {name:"OG Aren Milky Speculoos",normal:23000,disc:17000,upsize:24000,emo:"🥛",img:"OG Aren Milky Speculoos.png"},
-    {name:"Choco Caramel",normal:29000,disc:20000,upsize:26000,emo:"🍫",img:"Choco Caramel.png"},
+    {name:"OG Aren Milky Speculoos",normal:23000,disc:16000,upsize:24000,emo:"🥛",img:"OG Aren Milky Speculoos.png"},
+    {name:"Choco Caramel",normal:22000,disc:16000,upsize:22000,emo:"🍫",img:"Choco Caramel.png"},
     {name:"Toffee Nut Choco Macchiato",normal:22000,disc:18000,upsize:null,emo:"🍫",img:"Toffee Nut Choco Macchiato.png"},
     {name:"Butterscotch Sea Salt (NC)",normal:24000,disc:18000,upsize:null,emo:"🥛",img:"Butterscotch Sea Salt (NC).png"},
     {name:"Milk Oreo Crumble",normal:26000,disc:19000,upsize:null,emo:"🍪",img:"Milk Oreo Crumble.png"},
@@ -55,7 +55,7 @@ const MENUS = {
     {name:"Hazelnut Dutch Choco",normal:28000,disc:20000,upsize:27000,emo:"🍫",img:"Hazelnut Dutch Choco.png"},
     {name:"Lemon Black Tea",normal:17000,disc:14000,upsize:18000,emo:"🍋",img:"Lemon Black Tea.png"},
     {name:"Kenangan Milk Tea",normal:21000,disc:16000,upsize:21000,emo:"🧋",img:"Kenangan Milk Tea.png"},
-    {name:"Oreo Shake",normal:26000,disc:18500,upsize:27000,emo:"🍪",img:"Oreo Shake.png"},
+    {name:"Oreo Shake",normal:26000,disc:19000,upsize:27000,emo:"🍪",img:"Oreo Shake.png"},
     {name:"Susu Grass Jelly",normal:24000,disc:17000,upsize:24000,emo:"🥛",img:"Susu Grass Jelly.png"},
     {name:"Og Thai Tea",normal:19000,disc:15000,upsize:22000,emo:"🧋",img:"Og Thai Tea.png",isNew:true},
     {name:"Thai Tea Loaded",normal:27000,disc:21000,upsize:null,emo:"🧋",img:"Thai Tea Loaded.png",onlyLarge:true,isNew:true},
