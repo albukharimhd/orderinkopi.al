@@ -42,7 +42,7 @@ const MENUS = {
     {name:"Babyccino",normal:19000,disc:15000,upsize:null,emo:"🥛",img:"Babyccino.png",signature:true},
     // ── REGULAR ──
     {name:"OG Aren Milky Speculoos",normal:23000,disc:17000,upsize:24000,emo:"🥛",img:"OG Aren Milky Speculoos.png"},
-    {name:"Choco Caramel",normal:29000,disc:19000,upsize:26000,emo:"🍫",img:"Choco Caramel.png"},
+    {name:"Choco Caramel",normal:29000,disc:20000,upsize:26000,emo:"🍫",img:"Choco Caramel.png"},
     {name:"Toffee Nut Choco Macchiato",normal:22000,disc:18000,upsize:null,emo:"🍫",img:"Toffee Nut Choco Macchiato.png"},
     {name:"Butterscotch Sea Salt (NC)",normal:24000,disc:18000,upsize:null,emo:"🥛",img:"Butterscotch Sea Salt (NC).png"},
     {name:"Milk Oreo Crumble",normal:26000,disc:19000,upsize:null,emo:"🍪",img:"Milk Oreo Crumble.png"},
