@@ -5,9 +5,9 @@ const WA_NUMBER = "6285664107580";
 const MENUS = {
   coffee: [
     // ── BEST SELLER (signature) ──
-    {name:"Kopi Kenangan Mantan",normal:19000,disc:14500,upsize:19000,emo:"☕",img:"Kopi Kenangan Mantan.png",signature:true},
+    {name:"Kopi Kenangan Mantan",normal:19000,disc:14000,upsize:19000,emo:"☕",img:"Kopi Kenangan Mantan.png",signature:true},
     {name:"Creamy Aren Latte",normal:22000,disc:16000,upsize:24000,emo:"☕",img:"Creamy Aren Latte.png",signature:true},
-    {name:"Americano",normal:17000,disc:13500,upsize:18000,emo:"☕",img:"Americano.png",signature:true},
+    {name:"Americano",normal:17000,disc:13000,upsize:18000,emo:"☕",img:"Americano.png",signature:true},
     {name:"Spanish Latte",normal:19000,disc:15000,upsize:21000,emo:"☕",img:"Spanish Latte.png",signature:true},
     {name:"Caramel Macchiato",normal:28000,disc:19000,upsize:26000,emo:"☕",img:"Caramel Macchiato.png",signature:true},
     // ── REGULAR ──
@@ -122,6 +122,25 @@ const MENUS = {
     {name:"Salt Bread Sausage",normal:15000,disc:11000,upsize:null,emo:"🌭",img:"Salt_Bread_Sausage.png",isNew:true},
   ],
 };
+
+// Categories that should NOT show sugar/ice (food items)
+const NO_SUGAR_ICE = ['bake','toast','food'];
+// Frappe: punya ice tapi tanpa opsi "No Ice" (cuma Normal/Less) + punya whipped cream
+const ICE_NO_ZERO = ['frappe'];
+// Frappe punya pilihan whipped cream (Vanilla / Chocolate / No Whipped)
+const HAS_WHIPPED = ['frappe'];
+const NO_ICE_OPTION = [];  // (kosong) — frappe sekarang tetap tampil ice via ICE_NO_ZERO
+
+// Menu yang cuma punya Normal & Less sugar (TANPA No Sugar)
+const LESS_SUGAR_ONLY = new Set([
+  'Thai Tea Coffee','Og Thai Tea','Thai Tea Loaded','Thai Tea Aren',
+  'OG Aren Speculoos Latte','Dua Shot OG Aren','Mocha Caramel',
+  'Toffee Nut Latte','Toffee Nut Aren Latte','Toffee Nut Oat Latte',
+  'Pistachio Aren Latte','Spanish Latte','Creamy Aren Latte',
+  'Butterscotch Aren Latte','Butterscotch Sea Salt',
+  'OG Aren Milky Speculoos','Toffee Nut Choco Macchiato'
+]);
+
 
 // Categories that should NOT show sugar/ice (food items)
 const NO_SUGAR_ICE = ['bake','toast','food'];
