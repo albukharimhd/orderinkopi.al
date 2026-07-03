@@ -141,25 +141,6 @@ const LESS_SUGAR_ONLY = new Set([
   'OG Aren Milky Speculoos','Toffee Nut Choco Macchiato'
 ]);
 
-
-// Categories that should NOT show sugar/ice (food items)
-const NO_SUGAR_ICE = ['bake','toast','food'];
-// Frappe: punya ice tapi tanpa opsi "No Ice" (cuma Normal/Less) + punya whipped cream
-const ICE_NO_ZERO = ['frappe'];
-// Frappe punya pilihan whipped cream (Vanilla / Chocolate / No Whipped)
-const HAS_WHIPPED = ['frappe'];
-const NO_ICE_OPTION = [];  // (kosong) — frappe sekarang tetap tampil ice via ICE_NO_ZERO
-
-// Menu yang cuma punya Normal & Less sugar (TANPA No Sugar)
-const LESS_SUGAR_ONLY = new Set([
-  'Thai Tea Coffee','Og Thai Tea','Thai Tea Loaded','Thai Tea Aren',
-  'OG Aren Speculoos Latte','Dua Shot OG Aren','Mocha Caramel',
-  'Toffee Nut Latte','Toffee Nut Aren Latte','Toffee Nut Oat Latte',
-  'Pistachio Aren Latte','Spanish Latte','Creamy Aren Latte',
-  'Butterscotch Aren Latte','Butterscotch Sea Salt',
-  'OG Aren Milky Speculoos','Toffee Nut Choco Macchiato'
-]);
-
 // Berry frappe baru: no whipped, ice fix normal (gak bisa ganti)
 const BERRY_FRAPPE = new Set([
   'Blueberry Frappe','Chocoberry Frappe','Coffeberry Frappe'
@@ -1009,7 +990,8 @@ function confirmSendToWA(){
   msg+=`*TOTAL: ${fmt(Math.max(0, total - discount))}*\n`;
   msg+="──────────────────────\n";
   msg+="*Follow & Cek Testi:*\n";
-  msg+="Testi   : instagram.com/orderinkopi.al\n";
+  msg+="Order : instagram.com/orderinkopi.al\n";
+  msg+="Testi  : instagram.com/orderinkopi.al\n";
   msg+=`WA      : wa.me/${WA_NUMBER}`;
 
   const url="https://wa.me/"+WA_NUMBER+"?text="+encodeURIComponent(msg);
