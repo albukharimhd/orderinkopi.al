@@ -1,4 +1,4 @@
-const WA_NUMBER = "6285664107580";
+const WA_NUMBER = "6285664107580";const WA_NUMBER = "6285664107580";
 
 // ── DATA MENU ──
 // "signature" = highlighted as best-seller / signature
@@ -34,7 +34,7 @@ const MENUS = {
     {name:"Thai Tea Coffee",normal:25000,disc:19000,upsize:null,emo:"🧋",img:"Thai Tea Coffee.png",onlyLarge:true,isNew:true},
     {name:"Blueberry Americano",normal:19000,disc:15000,upsize:22000,emo:"☕",img:"Bluebeery_Americano.png",isNew:true},
   ],
-   noncoffee: [
+  noncoffee: [
     // ── BEST SELLER (signature) ──
     {name:"Milo Dinosaurus",normal:23000,disc:17000,upsize:24000,emo:"🥛",img:"Milo Dinosaurus.png",signature:true},
     {name:"Raspberry Hibiscus",normal:20000,disc:15000,upsize:21000,emo:"🌺",img:"Raspberry Hibiscus.png",signature:true},
@@ -83,7 +83,7 @@ const MENUS = {
     {name:"Blueberry Muffin",normal:16000,disc:12000,upsize:null,emo:"🧁",img:"Blueberry Muffin.png"},
     {name:"Choco Mocha Swirl Toast",normal:19000,disc:13000,upsize:null,emo:"🍞",img:"Choco Mocha Swirl Toast.png"},
     {name:"Strawberry Choux Puff",normal:13000,disc:9500,upsize:null,emo:"🍓",img:"Strawberry Choux Puff.png"},
-    {name:"Donut Tiramisu",normal:14000,disc:10000,upsize:null,emo:"🍩",img:"Donut Tiramisu.png"},
+    {name:"Donut Tiramisu",normal:14000,disc:1000,upsize:null,emo:"🍩",img:"Donut Tiramisu.png"},
     {name:"Danish Tiramisu",normal:20000,disc:14000,upsize:null,emo:"🥐",img:"Danish Tiramisu.png"},
     {name:"Roti Gulung Abon",normal:18000,disc:12000,upsize:null,emo:"🍞",img:"Roti Gulung Abon.png"},
     {name:"Roti Gulung Aren",normal:14000,disc:10000,upsize:null,emo:"🍞",img:"Roti Gulung Aren.png"},
@@ -112,7 +112,7 @@ const MENUS = {
     {name:"Butter Croissant",normal:15000,disc:11000,upsize:null,emo:"🥐",img:"Butter Croissant.png"},
     {name:"Chocolate Croissant",normal:19000,disc:13000,upsize:null,emo:"🥐",img:"Chocolate Croissant.png"},
     {name:"Roti Coklat Klasik",normal:9000,disc:7000,upsize:null,emo:"🍞",img:"Roti Coklat Klasik.png"},
-    {name:"Roti Susu Manis",normal:10000,disc:7500,upsize:null,emo:"🍞",img:"Roti Susu Manis.png"},
+    {name:"Roti Susu Manis",normal:10000,disc:8000,upsize:null,emo:"🍞",img:"Roti Susu Manis.png"},
     {name:"Roti Keju Manis",normal:13000,disc:9000,upsize:null,emo:"🧀",img:"Roti Keju Manis.png"},
     {name:"Roti Srikaya",normal:15000,disc:11000,upsize:null,emo:"🍞",img:"Roti Srikaya.png"},
     {name:"Join The Dark Side Cookie",normal:21000,disc:14500,upsize:null,emo:"🍪",img:"Join The Dark Side Cookie.png"},
