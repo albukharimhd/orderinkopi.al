@@ -1,4 +1,4 @@
-const WA_NUMBER = "6285664107580";const WA_NUMBER = "6285664107580";
+const WA_NUMBER = "6285664107580";
 
 // ── DATA MENU ──
 // "signature" = highlighted as best-seller / signature
@@ -25,13 +25,13 @@ const MENUS = {
     {name:"Kopi Susu Black Aren",normal:21000,disc:16000,upsize:22000,emo:"☕",img:"Kopi Susu Black Aren.png"},
     {name:"Matcha Espresso",normal:26000,disc:19000,upsize:25000,emo:"🍵",img:"Matcha Espresso.png"},
     {name:"Mocha Latte",normal:28000,disc:20000,upsize:27000,emo:"☕",img:"Mocha Latte.png"},
-    {name:"Vanilla Latte",normal:28000,disc:20000,upsize:26000,emo:"☕",img:"Vanilla Latte.png"},
-    {name:"Avocado Coffee",normal:28000,disc:20000,upsize:26000,emo:"🥑",img:"Avocado Coffee.png"},
+    {name:"Vanilla Latte",normal:28000,disc:20000,upsize:24000,emo:"☕",img:"Vanilla Latte.png"},
+    {name:"Avocado Coffee",normal:28000,disc:19000,upsize:26000,emo:"🥑",img:"Avocado Coffee.png"},
     {name:"Butterscotch Aren Latte",normal:21000,disc:16000,upsize:22000,emo:"☕",img:"Butterscotch Aren Latte.png"},
     {name:"Butterscotch Sea Salt",normal:25000,disc:18000,upsize:25000,emo:"☕",img:"Butterscotch Sea Salt.png"},
     {name:"Cappuccino",normal:22000,disc:16000,upsize:22000,emo:"☕",img:"Cappuccino.png"},
     {name:"Latte",normal:22000,disc:16000,upsize:23000,emo:"☕",img:"Latte.png"},
-    {name:"Thai Tea Coffee",normal:25000,disc:18000,upsize:null,emo:"🧋",img:"Thai Tea Coffee.png",onlyLarge:true,isNew:true},
+    {name:"Thai Tea Coffee",normal:25000,disc:19000,upsize:null,emo:"🧋",img:"Thai Tea Coffee.png",onlyLarge:true,isNew:true},
     {name:"Blueberry Americano",normal:19000,disc:15000,upsize:22000,emo:"☕",img:"Bluebeery_Americano.png",isNew:true},
   ],
   noncoffee: [
@@ -42,7 +42,7 @@ const MENUS = {
     {name:"Babyccino",normal:19000,disc:15000,upsize:null,emo:"🥛",img:"Babyccino.png",signature:true},
     // ── REGULAR ──
     {name:"OG Aren Milky Speculoos",normal:23000,disc:16000,upsize:24000,emo:"🥛",img:"OG Aren Milky Speculoos.png"},
-    {name:"Choco Caramel",normal:29000,disc:16000,upsize:22000,emo:"🍫",img:"Choco Caramel.png"},
+    {name:"Choco Caramel",normal:29000,disc:15000,upsize:22000,emo:"🍫",img:"Choco Caramel.png"},
     {name:"Toffee Nut Choco Macchiato",normal:22000,disc:18000,upsize:null,emo:"🍫",img:"Toffee Nut Choco Macchiato.png"},
     {name:"Butterscotch Sea Salt (NC)",normal:24000,disc:18000,upsize:null,emo:"🥛",img:"Butterscotch Sea Salt (NC).png"},
     {name:"Milk Oreo Crumble",normal:26000,disc:19000,upsize:null,emo:"🍪",img:"Milk Oreo Crumble.png"},
