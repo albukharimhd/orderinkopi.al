@@ -61,16 +61,10 @@ const MENUS = {
     {name:"Kenangan Milk Tea",normal:21000,disc:16000,upsize:21000,emo:"🧋",img:"Kenangan Milk Tea.png"},
     {name:"Oreo Shake",normal:26000,disc:19000,upsize:27000,emo:"🍪",img:"Oreo Shake.png"},
     {name:"Susu Grass Jelly",normal:24000,disc:17000,upsize:24000,emo:"🥛",img:"Susu Grass Jelly.png"},
-<<<<<<< HEAD
-    {name:"Og Thai Tea",normal:19000,disc:15000,upsize:20000,emo:"🧋",img:"Og Thai Tea.png",isNew:true},
-    {name:"Thai Tea Loaded",normal:27000,disc:21000,upsize:null,emo:"🧋",img:"Thai Tea Loaded.png",onlyLarge:true,isNew:true},
-    {name:"Thai Tea Aren",normal:24000,disc:19000,upsize:null,emo:"🧋",img:"Thai Tea Aren.png",onlyLarge:true,isNew:true},
-=======
     {name:"Og Thai Tea",normal:19000,disc:15000,upsize:20000,emo:"🧋",img:"Og Thai Tea.png"},
     {name:"Thai Tea Loaded",normal:27000,disc:21000,upsize:null,emo:"🧋",img:"Thai Tea Loaded.png",onlyLarge:true},
     {name:"Thai Tea Aren",normal:24000,disc:19000,upsize:null,emo:"🧋",img:"Thai Tea Aren.png",onlyLarge:true},
     {name:"Banana Choco", normal:24000, disc:18000, upsize:22000, emo:"☕", img:"Banana Choco.png", isNew:true},
->>>>>>> 0a491d1 (Update menu baru dan tambahan fee jasa order)
   ],
   oatside: [
     {name:"Oatside Kopi Kenangan",normal:22000,disc:16000,upsize:21000,emo:"🥛",img:"Oatside Kopi Kenangan.png"},
@@ -85,15 +79,9 @@ const MENUS = {
     {name:"Kopi Kenangan Mantan Frappe",normal:27000,disc:20000,upsize:26000,emo:"🧊",img:"Kopi Kenangan Mantan Frappe.png",signature:true},
     {name:"Vanilla Kenangan Frappe",normal:25000,disc:19000,upsize:25000,emo:"🧊",img:"Vanilla Kenangan Frappe.png"},
     {name:"Dutch Choco Kenangan Frappe",normal:29000,disc:22000,upsize:28000,emo:"🧊",img:"Dutch Choco Kenangan Frappe.png"},
-<<<<<<< HEAD
-    {name:"Blueberry Frappe",normal:23000,disc:18000,upsize:23000,emo:"🧊",img:"Bluebeery_Frappe.png",isNew:true},
-    {name:"Chocoberry Frappe",normal:27000,disc:20000,upsize:26000,emo:"🧊",img:"Chocoberry_Frappe.png",isNew:true},
-    {name:"Coffeberry Frappe",normal:25000,disc:19000,upsize:25000,emo:"🧊",img:"Coffeberry_Frappe.png",isNew:true},
-=======
     {name:"Blueberry Frappe",normal:23000,disc:18000,upsize:23000,emo:"🧊",img:"Bluebeery_Frappe.png"},
     {name:"Chocoberry Frappe",normal:27000,disc:20000,upsize:26000,emo:"🧊",img:"Chocoberry_Frappe.png"},
     {name:"Coffeberry Frappe",normal:25000,disc:19000,upsize:25000,emo:"🧊",img:"Coffeberry_Frappe.png"},
->>>>>>> 0a491d1 (Update menu baru dan tambahan fee jasa order)
   ],
   bake: [
     {name:"Coffee Butter Bun",normal:11000,disc:8500,upsize:null,emo:"🍩",img:"Coffee Butter Bun.png"},
@@ -102,11 +90,8 @@ const MENUS = {
     {name:"Choco Mocha Swirl Toast",normal:19000,disc:14000,upsize:null,emo:"🍞",img:"Choco Mocha Swirl Toast.png"},
     {name:"Strawberry Choux Puff",normal:13000,disc:9500,upsize:null,emo:"🍓",img:"Strawberry Choux Puff.png"},
     {name:"Donut Tiramisu",normal:14000,disc:10000,upsize:null,emo:"🍩",img:"Donut Tiramisu.png"},
-<<<<<<< HEAD
-=======
     {name:"Donut Chocolate",normal:13000,disc:10000,upsize:null,emo:"🍩",img:"Donut Chocolate.png"},
     {name:"Sugar Donut",normal:10000,disc:7500,upsize:null,emo:"🍩",img:"Sugar Donut.png"},
->>>>>>> 0a491d1 (Update menu baru dan tambahan fee jasa order)
     {name:"Danish Tiramisu",normal:20000,disc:15000,upsize:null,emo:"🥐",img:"Danish Tiramisu.png"},
     {name:"Roti Gulung Abon",normal:18000,disc:13000,upsize:null,emo:"🍞",img:"Roti Gulung Abon.png"},
     {name:"Roti Gulung Aren",normal:14000,disc:10000,upsize:null,emo:"🍞",img:"Roti Gulung Aren.png"},
