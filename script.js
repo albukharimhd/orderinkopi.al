@@ -1,4 +1,5 @@
 const WA_NUMBER = "6285664107580";
+const FEE_JASA = 1000;
 
 // ── DATA MENU ──
 // "signature" = highlighted as best-seller / signature
@@ -31,8 +32,11 @@ const MENUS = {
     {name:"Butterscotch Sea Salt",normal:25000,disc:19000,upsize:25000,emo:"☕",img:"Butterscotch Sea Salt.png"},
     {name:"Cappuccino",normal:22000,disc:16000,upsize:22000,emo:"☕",img:"Cappuccino.png"},
     {name:"Latte",normal:22000,disc:16000,upsize:23000,emo:"☕",img:"Latte.png"},
-    {name:"Thai Tea Coffee",normal:25000,disc:19000,upsize:null,emo:"🧋",img:"Thai Tea Coffee.png",onlyLarge:true,isNew:true},
-    {name:"Blueberry Americano",normal:19000,disc:15000,upsize:22000,emo:"☕",img:"Bluebeery_Americano.png",isNew:true},
+    {name:"Creamy Caramel Latte", normal:26000, disc:19000, upsize:25000, emo:"☕", img:"Creamy Caramel Latte.png"},
+    {name:"Thai Tea Coffee",normal:25000,disc:19000,upsize:null,emo:"🧋",img:"Thai Tea Coffee.png",onlyLarge:true},
+    {name:"Blueberry Americano",normal:19000,disc:15000,upsize:22000,emo:"☕",img:"Bluebeery_Americano.png"},
+    {name:"Korean Banana Latte", normal:23000, disc:17000, upsize:22000, emo:"☕", img:"Korean Banana Latte.png", isNew:true},
+    {name:"Banana Americano", normal:19000, disc:15000, upsize:19000, emo:"☕", img:"Banana Americano.png", isNew:true},
   ],
    noncoffee: [
     // ── BEST SELLER (signature) ──
@@ -57,9 +61,16 @@ const MENUS = {
     {name:"Kenangan Milk Tea",normal:21000,disc:16000,upsize:21000,emo:"🧋",img:"Kenangan Milk Tea.png"},
     {name:"Oreo Shake",normal:26000,disc:19000,upsize:27000,emo:"🍪",img:"Oreo Shake.png"},
     {name:"Susu Grass Jelly",normal:24000,disc:17000,upsize:24000,emo:"🥛",img:"Susu Grass Jelly.png"},
+<<<<<<< HEAD
     {name:"Og Thai Tea",normal:19000,disc:15000,upsize:20000,emo:"🧋",img:"Og Thai Tea.png",isNew:true},
     {name:"Thai Tea Loaded",normal:27000,disc:21000,upsize:null,emo:"🧋",img:"Thai Tea Loaded.png",onlyLarge:true,isNew:true},
     {name:"Thai Tea Aren",normal:24000,disc:19000,upsize:null,emo:"🧋",img:"Thai Tea Aren.png",onlyLarge:true,isNew:true},
+=======
+    {name:"Og Thai Tea",normal:19000,disc:15000,upsize:20000,emo:"🧋",img:"Og Thai Tea.png"},
+    {name:"Thai Tea Loaded",normal:27000,disc:21000,upsize:null,emo:"🧋",img:"Thai Tea Loaded.png",onlyLarge:true},
+    {name:"Thai Tea Aren",normal:24000,disc:19000,upsize:null,emo:"🧋",img:"Thai Tea Aren.png",onlyLarge:true},
+    {name:"Banana Choco", normal:24000, disc:18000, upsize:22000, emo:"☕", img:"Banana Choco.png", isNew:true},
+>>>>>>> 0a491d1 (Update menu baru dan tambahan fee jasa order)
   ],
   oatside: [
     {name:"Oatside Kopi Kenangan",normal:22000,disc:16000,upsize:21000,emo:"🥛",img:"Oatside Kopi Kenangan.png"},
@@ -74,16 +85,28 @@ const MENUS = {
     {name:"Kopi Kenangan Mantan Frappe",normal:27000,disc:20000,upsize:26000,emo:"🧊",img:"Kopi Kenangan Mantan Frappe.png",signature:true},
     {name:"Vanilla Kenangan Frappe",normal:25000,disc:19000,upsize:25000,emo:"🧊",img:"Vanilla Kenangan Frappe.png"},
     {name:"Dutch Choco Kenangan Frappe",normal:29000,disc:22000,upsize:28000,emo:"🧊",img:"Dutch Choco Kenangan Frappe.png"},
+<<<<<<< HEAD
     {name:"Blueberry Frappe",normal:23000,disc:18000,upsize:23000,emo:"🧊",img:"Bluebeery_Frappe.png",isNew:true},
     {name:"Chocoberry Frappe",normal:27000,disc:20000,upsize:26000,emo:"🧊",img:"Chocoberry_Frappe.png",isNew:true},
     {name:"Coffeberry Frappe",normal:25000,disc:19000,upsize:25000,emo:"🧊",img:"Coffeberry_Frappe.png",isNew:true},
+=======
+    {name:"Blueberry Frappe",normal:23000,disc:18000,upsize:23000,emo:"🧊",img:"Bluebeery_Frappe.png"},
+    {name:"Chocoberry Frappe",normal:27000,disc:20000,upsize:26000,emo:"🧊",img:"Chocoberry_Frappe.png"},
+    {name:"Coffeberry Frappe",normal:25000,disc:19000,upsize:25000,emo:"🧊",img:"Coffeberry_Frappe.png"},
+>>>>>>> 0a491d1 (Update menu baru dan tambahan fee jasa order)
   ],
   bake: [
+    {name:"Coffee Butter Bun",normal:11000,disc:8500,upsize:null,emo:"🍩",img:"Coffee Butter Bun.png"},
     {name:"Choco Muffin",normal:16000,disc:12000,upsize:null,emo:"🧁",img:"Choco Muffin.png"},
     {name:"Blueberry Muffin",normal:16000,disc:12000,upsize:null,emo:"🧁",img:"Blueberry Muffin.png"},
     {name:"Choco Mocha Swirl Toast",normal:19000,disc:14000,upsize:null,emo:"🍞",img:"Choco Mocha Swirl Toast.png"},
     {name:"Strawberry Choux Puff",normal:13000,disc:9500,upsize:null,emo:"🍓",img:"Strawberry Choux Puff.png"},
     {name:"Donut Tiramisu",normal:14000,disc:10000,upsize:null,emo:"🍩",img:"Donut Tiramisu.png"},
+<<<<<<< HEAD
+=======
+    {name:"Donut Chocolate",normal:13000,disc:10000,upsize:null,emo:"🍩",img:"Donut Chocolate.png"},
+    {name:"Sugar Donut",normal:10000,disc:7500,upsize:null,emo:"🍩",img:"Sugar Donut.png"},
+>>>>>>> 0a491d1 (Update menu baru dan tambahan fee jasa order)
     {name:"Danish Tiramisu",normal:20000,disc:15000,upsize:null,emo:"🥐",img:"Danish Tiramisu.png"},
     {name:"Roti Gulung Abon",normal:18000,disc:13000,upsize:null,emo:"🍞",img:"Roti Gulung Abon.png"},
     {name:"Roti Gulung Aren",normal:14000,disc:10000,upsize:null,emo:"🍞",img:"Roti Gulung Aren.png"},
@@ -118,8 +141,11 @@ const MENUS = {
     {name:"Join The Dark Side Cookie",normal:21000,disc:15000,upsize:null,emo:"🍪",img:"Join The Dark Side Cookie.png"},
     {name:"Choco Chip Cookies",normal:14000,disc:10000,upsize:null,emo:"🍪",img:"Choco Chip Cookies.png"},
     {name:"Friend Chip Cookie",normal:17000,disc:13000,upsize:null,emo:"🍪",img:"Friend Chip Cookie.png"},
-    {name:"Salt Bread Choco Butter",normal:12000,disc:9000,upsize:null,emo:"🍞",img:"Salt_Bread_Choco_Butter.png",isNew:true},
-    {name:"Salt Bread Sausage",normal:15000,disc:11000,upsize:null,emo:"🌭",img:"Salt_Bread_Sausage.png",isNew:true},
+    {name:"Salt Bread Choco Butter",normal:12000,disc:9000,upsize:null,emo:"🍞",img:"Salt_Bread_Choco_Butter.png"},
+    {name:"Salt Bread Sausage",normal:15000,disc:11000,upsize:null,emo:"🌭",img:"Salt_Bread_Sausage.png"},
+    {name:"Sweet Honey Soft Baked Cookie",normal:18000,disc:14000,upsize:null,emo:"🌭",img:"Sweet Honey Soft Baked Cookie.png",isNew:true},
+    {name:"Banana Choco Soft Baked Cookie",normal:19000,disc:14500,upsize:null,emo:"🌭",img:"Banana Choco Soft Baked Cookie.png",isNew:true},
+    {name:"Oatmeal Raisin Soft Baked Cookie",normal:19000,disc:14500,upsize:null,emo:"🌭",img:"Oatmeal Raisin Soft Baked Cookie.png",isNew:true},
   ],
 };
 
@@ -138,7 +164,7 @@ const LESS_SUGAR_ONLY = new Set([
   'Toffee Nut Latte','Toffee Nut Aren Latte','Toffee Nut Oat Latte',
   'Pistachio Aren Latte','Spanish Latte','Creamy Aren Latte',
   'Butterscotch Aren Latte','Butterscotch Sea Salt',
-  'OG Aren Milky Speculoos','Toffee Nut Choco Macchiato'
+  'OG Aren Milky Speculoos','Toffee Nut Choco Macchiato', 'Creamy Caramel Latte', 'Korean Banana Latte', 'Banana Americano', 'Banana Choco',
 ]);
 
 // Berry frappe baru: no whipped, ice fix normal (gak bisa ganti)
@@ -794,7 +820,8 @@ function renderCart(){
     else body.appendChild(promoDiv);
   }
 
-  document.getElementById("totalPrice").textContent = fmt(Math.max(0, total - discount));
+  const finalTotal = Math.max(0, total - discount) + FEE_JASA;
+  document.getElementById("totalPrice").textContent = fmt(finalTotal);
   document.getElementById("sendBtn").disabled=false;
   if(resetBtn) resetBtn.disabled=false;
 }
@@ -949,9 +976,16 @@ function buildPreview(){
       <div class="pv-item-price">-${fmt(discount)}</div>
     </div>`;
   }
+  // Tambahkan baris Fee Jasa
+  html+=`<div class="pv-item">
+    <div class="pv-item-name">⚡ Fee Jasa Order</div>
+    <div class="pv-item-price">${fmt(FEE_JASA)}</div>
+  </div>`;
+
+  // Total akhir ditambah FEE_JASA
   html+=`<div class="pv-total">
     <span class="pv-total-label">TOTAL</span>
-    <span class="pv-total-price">${fmt(Math.max(0, total - discount))}</span>
+    <span class="pv-total-price">${fmt(Math.max(0, total - discount) + FEE_JASA)}</span>
   </div>`;
   body.innerHTML=html;
 }
@@ -987,14 +1021,18 @@ function confirmSendToWA(){
   if(promoActive){
     msg+=`🎉 *PROMO: -${fmt(discount)}* (${PROMO.label})\n`;
   }
-  msg+=`*TOTAL: ${fmt(Math.max(0, total - discount))}*\n`;
+  msg+=`Fee Jasa: ${fmt(FEE_JASA)}\n`;
+  msg+=`*TOTAL: ${fmt(Math.max(0, total - discount) + FEE_JASA)}*\n`;
   msg+="──────────────────────\n";
+  
+  // Bagian ini yang kita ubah jadi Saluran WA:
   msg+="*Follow & Cek Testi:*\n";
   msg+="Testi   : instagram.com/orderinkopi.al\n";
-  msg+=`WA      : wa.me/${WA_NUMBER}`;
+  msg+="Saluran : https://bit.ly/4xiQyuN\n"; // <- jauh lebih pendek & tetap bisa diklik
 
+  // Pastikan baris bawah ini TETAP SAMA (jangan diubah):
   const url="https://wa.me/"+WA_NUMBER+"?text="+encodeURIComponent(msg);
-  window._lastWAUrl = url; // simpan untuk tombol fallback
+
 
   // Clear cart (nama & outlet tetep tersimpan di localStorage)
   cart = [];
