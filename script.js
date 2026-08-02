@@ -1,5 +1,5 @@
 const WA_NUMBER = "6285664107580";
-const FEE_JASA = 1000;
+const FEE_JASA = 500;
 
 // ── DATA MENU ──
 // "signature" = highlighted as best-seller / signature
@@ -982,12 +982,14 @@ function closePreview(){
 function confirmSendToWA(){
   const nama=document.getElementById("inputNama").value.trim();
   const outlet=document.getElementById("inputOutlet").value.trim();
+  const pickupTime = document.getElementById('pickupTime').value.trim() || 'Secepatnya';
   const note=document.getElementById("inputNote").value.trim();
 
   let msg="*FORMAT ORDER @orderinkopi.al*\n";
   msg+="──────────────────────\n";
   msg+=`*Nama:* ${nama}\n`;
   msg+=`*Outlet:* ${outlet}\n`;
+  msg += `*Jam Pick Up:* ${pickupTime}\n`;
   if(note) msg+=`*Catatan:* ${note}\n`;
   msg+="──────────────────────\n";
   let total=0;
